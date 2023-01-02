@@ -23,9 +23,9 @@ export class CockpitComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    let date= new Date();
-    let Miliseconds =date.getTime()
-    console.log('from CockpitComponent',Miliseconds)
+    // let date= new Date();
+    // let Miliseconds =date.getTime()
+    // console.log('from CockpitComponent',Miliseconds)
 
   }
 

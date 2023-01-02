@@ -10,9 +10,9 @@ export class CockpitChildComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    let date= new Date();
-    let Miliseconds =date.getTime()
-    console.log('from CockpitChildComponent',Miliseconds)
+    // let date= new Date();
+    // let Miliseconds =date.getTime()
+    // console.log('from CockpitChildComponent',Miliseconds)
   }
 
 }
