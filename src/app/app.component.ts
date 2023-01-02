@@ -22,7 +22,6 @@ export class AppComponent implements OnInit {
   }
 
   onServerAdded(serverData: ServerElementModel) {
-    debugger
     this.serverElements.push({
       type: 'server',
       name: serverData.name,
