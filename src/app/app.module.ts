@@ -6,12 +6,14 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ServerElementComponent } from './server-element/server-element.component';
 import { CockpitComponent } from './cockpit/cockpit.component';
+import { CockpitChildComponent } from './Cockpit/cockpit-child/cockpit-child.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerElementComponent,
-    CockpitComponent
+    CockpitComponent,
+    CockpitChildComponent
   ],
   imports: [
     BrowserModule,

@@ -22,10 +22,14 @@ export class CockpitComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    let date= new Date();
+    let Miliseconds =date.getTime()
+    console.log('from CockpitComponent',Miliseconds)
+
+  }
 
   onAddServer(data: ServerElementModel) {
-    debugger;
     // let param: ServerElementModel = {
     //   type: 'server',
     //   name: this.newServerName,
